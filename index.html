@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <mate name="autor" content="Куцан Інна" />
+    <mate name="description" content="Еустова сторінка" />
+    <mate name="keyworks" content=" текст, перевірка" />
+    <title>Kutsan Inna</title>
+
+    <link rel="stylesheet" href="stylse.css" />
+  </head>
+  <body>
+    <!--коментарій-->
+    <a name="bottomOfPage"></a>
+    <h1>
+      <strike>Заголовок <small>1</small></strike>
+    </h1>
+    <h2><em> Інна Куцан</em> <big>19</big></h2>
+
+    <h4>Заголовок 4</h4>
+    <h5>Заголовок 5</h5>
+    <h6>Заголовок 6</h6>
+
+    <pre>
+function some(){
+ return "Some"
+}
+</pre
+    >
+    <code> let x = 0; </code>
+    <div class="info">
+      <p>Просто <b>текст</b></p>
+      <p>Просто <strong>текст</strong></p>
+      <p>Просто текст</p>
+      <p>Просто <i>текст</i></p>
+
+      a<sup>2</sup><br />
+      <hr />
+      H<sub>2</sub>O
+      <abbr title="HTML">HTML</abbr>
+      <address>Ukrain, Kyiv</address>
+
+      <ol start="2" type="i" class="ber">
+        <li>Купи молоко</li>
+        <li>Купи картошку</li>
+        <li>Купи шоколадку</li>
+      </ol>
+
+      <ul type="circle">
+        <li>Купи молоко</li>
+        <li>Купи картошку</li>
+        <li>Купи шоколадку</li>
+      </ul>
+
+      <p title="some">Some text</p>
+
+      <a href="#bottomOfPage">На початок сторінки</a><br />
+      <a href="https://google.com" target="_blank" title="Натисни на мене">
+        Перейти у Google</a
+      >
+      <br />
+      <a href="about.html" target="_blank">Перейти на сторінку про нас</a><br />
+      <a href="mailto:kutsan.inna2003@gmail.com">Написати на електронну пошту</a
+      ><br />
+
+      <img
+        src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmeta.ua%2Fnews%2Fphoto%2F20740-potryasayuschii-vid-s-gor-foto-rassveta-v-karpatah%2F&psig=AOvVaw029RTI0sOX4toWo7WyHyQJ&ust=1678524341628000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNC018r80P0CFQAAAAAdAAAAABAD"
+        alt="Гори"
+      />
+      <br />
+
+      <img src="html.jpeg" alt="Закат" class="avatar" /><br /><br />
+      <audio controls>
+        <source src="music.mp3" type="audio/mpeg" /></audio
+      ><br /><br />
+
+      <table border="7" width="500px" class="table">
+        <thead>
+          <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+          </tr>
+        </thead>
+        <tbody align="center">
+          <tr>
+            <td>Inna</td>
+            <td>Kutsan</td>
+          </tr>
+        </tbody>
+        <tfoot align="center">
+          <tr>
+            <td>Last</td>
+            <td>One</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <br />
+
+    <script src="js/main.js"></script>
+
+    <div>Просто корисна <span>інфа</span></div>
+    <span>Просто корисна інфа</span>
+    <span>Просто корисна інфа</span><br /><br />
+
+    <p><b>Заповнення форми на ваканцію</b></p>
+
+    <form action="" method="post">
+      <label for="user_name">Введіть ваше ім'я та фамілію</label>
+      <input
+        type="text"
+        placeholder="Введіть інформацію"
+        value="Тикни сюди"
+        maxlength="15"
+        name="user_name"
+        id="user_name"
+      /><br />
+      <br />
+
+      <label for="user_name">Введіть назву компанії, де працювали</label>
+      <input
+        type="password"
+        placeholder="Введіть інформацію"
+        name="user_name-1"
+        id="user_name-1"
+      /><br /><br />
+
+      <label for="user_name">Введіть вашу електронну адресу</label>
+      <input
+        type="email"
+        placeholder="Введіть дані"
+        name="user_name-2"
+        id="user_name-2"
+      /><br /><br />
+
+      <label for="user_name">Вкажіть стать </label><br /><br />
+      <input type="radio" name="state" />Жінка<br /><br />
+      <input type="radio" name="state" />Чоловік<br /><br />
+
+      <label for="user_name">Введіть вашу дату народження</label>
+      <input type="date" /><br /><br />
+
+      <label for="user_name">Введіть час зустрічі</label>
+      <input type="time" /><br /><br />
+
+      <label for="user_name">Оберіть виконання роботи </label><br /><br />
+      <input type="checkbox" />Дизайн сайта<br /><br />
+      <input type="checkbox" />Верстка сайта<br /><br />
+      <input type="checkbox" />Просування сайта<br /><br />
+
+      <label for="user_name">Завантажте резюме</label><br /><br />
+      <input type="file" /><br /><br />
+
+      <label for="user_name">Вaше заявка</label>
+      <hr />
+      <input type="submit" value="Відправити" />
+      <input type="button" value="Повернути" />
+      <input type="reset" value="Очистити" />
+    </form>
+    <br /><br />
+    <form>
+      <textarea
+        placeholder="Введіть інформацію"
+        name="user_name-3"
+        id="user_name-3"
+        cols="40"
+        rows="10"
+      >
+Корисна інформація</textarea
+      ><br />
+      <div class="container">
+      <button type="reset">Говото</button><br /><br />
+
+      <select multiple size="4">
+        <option disabled>------</option>
+        <option selected>BMW</option>
+        <option selected>Audi</option>
+        <option>Mercedes</option>
+      </select>
+    </form>
+    <br /><br />
+
+    <div class="card">
+      <header>Шапка</header>
+      <main>Основна частина сайта</main>
+      <aside>Бокова частина сайта</aside>
+      <footer>Футер</footer>
+
+      <progress max="100" value="35">Завантажена сторінка на</progress>
+    </div>
+    
+    <details>
+      <summary>Детальніше</summary>
+      Підтримує пошук у документах форматів PDF, RTF, PostScript, Microsoft
+      Word, Microsoft Excel, Microsoft PowerPoint та інших.
+    </details>
+
+    <h3>Мої соціальні мережі</h3>
+    <ul>
+      <li><a href="dvadvadvbab">телеграм</a></li>
+      <li><a target="_blank"></a>інстаграм1223</li>
+    </ul>
+    <ol>
+      <li>спорт</li>
+      <li>приготування їжі</li>
+    </ol>
+    <div class="card">
+      <div></div>
+      <div></div>
+      <div></div>
+      <div></div>
+    </div>
+
+  </div>
+  <div style="margin-bottom: 500px;"></div>
+  </body>
+</html>
